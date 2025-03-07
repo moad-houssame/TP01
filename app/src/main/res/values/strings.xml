@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <array name="villes">
+        <item>Casablanca</item>
+        <item>Rabat</item>
+        <item>Marrakech</item>
+        <item>Fès</item>
+        <item>Tanger</item>
+        <item>Agadir</item>
+        <item>Meknès</item>
+        <item>Oujda</item>
+        <item>Kenitra</item>
+        <item>Tetouan</item>
+        <item>Safi</item>
+        <item>El Jadida</item>
+        <item>Beni Mellal</item>
+        <item>Nador</item>
+        <item>Khouribga</item>
+        <item>Settat</item>
+        <item>Laayoune</item>
+        <item>Errachidia</item>
+        <item>Guelmim</item>
+        <item>Ouarzazate</item>
+        <item>Berkane</item>
+        <item>Taroudant</item>
+    </array>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="35dp"
+    android:paddingBottom="35dp"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:text="Navigation" />
+
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Nom &amp; Prénom"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextnom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez votre nom et prénom"
+            android:minHeight="48dp"
+            android:inputType="textPersonName"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="Email"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez votre email"
+            android:minHeight="48dp"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Téléphone"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez votre numéro de téléphone"
+            android:minHeight="48dp"
+            android:inputType="phone"/>
+
+        <TextView
+            android:id="@+id/adresse"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Adresse"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextadresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez votre adresse"
+            android:minHeight="48dp"
+            android:inputType="textPostalAddress"/>
+
+        <TextView
+            android:id="@+id/ville"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Ville"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/villes"
+            android:minHeight="48dp"
+        android:padding="8dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+                <RadioButton
+                    android:id="@+id/f"
+                    android:layout_width="127dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Femme" />
+
+                <RadioButton
+                    android:id="@+id/m"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Homme" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Envoyer"/>
+</LinearLayout>
